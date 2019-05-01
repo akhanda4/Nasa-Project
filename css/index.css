@@ -1,0 +1,39 @@
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jumbotron{
+  padding: 20px!important;
+  padding-left: 50px !important;
+}
+input{
+  text-align:center ;
+  width: 80% !important;
+  margin:auto!important;
+  margin-top: 17% !important;
+}
+#wait-notice{
+  text-align:left ;
+  width: 80% !important;
+  margin:auto!important;
+  font-size: 30px;
+}
+img{
+  width:700px;
+  height: 500px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Nasa-api{
+  cursor: pointer;
+}
+
+
+
+

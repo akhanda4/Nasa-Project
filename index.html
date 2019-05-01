@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body id="body-background">
+  <div class="jumbotron">
+    <span onclick="reloadFunc()" id="Nasa-api">NASA API</span>
+  </div>
+
+  <div class="active-cyan-3 active-cyan-4 mb-4">
+    <input class="form-control search-bar" type="text" placeholder="Search Here..." id="scriptBox" aria-label="Search" onkeypress="runScript(event)" />
+  </div>
+
+  <div>
+    <p id="wait-notice" ></p>
+  </div>
+  <div class="container">
+    <img src="" id="img0" style="display:none;"/>
+    <img src="" id="img1" style="display:none;"/>
+    <img src="" id="img2" style="display:none;"/>
+    <img src="" id="img3" style="display:none;"/>
+    <img src="" id="img4" style="display:none;"/>
+  </div>
+  <script src="js/vendor/jquery-3.3.1.min.js"></script>
+  <script src="js/vendor/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
+
+
+</body>
+
+</html>
