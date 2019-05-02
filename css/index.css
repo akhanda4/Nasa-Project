@@ -22,6 +22,9 @@ input{
 }
 img{
   width:100%;
+  margin-bottom: 3%;
+  border: 1px solid #b6b6b6 !important; 
+  border-radius: 12px !important;
 }
 .container{
   display: flex;
