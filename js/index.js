@@ -15,14 +15,12 @@ function runScript(event) {
     let value = document.getElementById('scriptBox').value;
     let data1;
     if(event.keyCode === 13){
-        console.log("Enter key pressed");
         setTimeout(function(){
             var result0,result1,result2,result3,result4;
 
             const x1 = fetch(`https://images-api.nasa.gov/search?q=` + value, {method: 'get'})
                 .then(response => response.json())
                 .then(function (data) {
-                    console.log(data);
                     let counter = 5;
                     for (let i = 0; i < 100 && counter > 0; i++) {
                         let str = data.collection.items[i].href;
